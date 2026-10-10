@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: 9180760331k-tech.github.io
+Sitemap: https://9180760331k-tech.github.io/uyutovo/sitemap.xml
