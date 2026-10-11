@@ -8,6 +8,8 @@ const types = {
   ".xml": "application/xml; charset=utf-8",
   ".txt": "text/plain; charset=utf-8",
   ".jpg": "image/jpeg",
+  ".webp": "image/webp",
+  ".woff2": "font/woff2",
   ".mp4": "video/mp4"
 };
 const root = __dirname;
@@ -27,4 +29,4 @@ http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": types[path.extname(file)] || "application/octet-stream" });
     res.end(data);
   });
-}).listen(8784, "127.0.0.1");
+}).listen(Number(process.env.PORT) || 8784, "127.0.0.1");

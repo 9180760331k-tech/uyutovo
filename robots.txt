@@ -1,3 +1,8 @@
+# SITE_URL
+# Сейчас сайт открывается по адресу https://9180760331k-tech.github.io/uyutovo/
+# Когда появится домен .ru, замените Host на имя домена без https://
+# и Sitemap на https://ваш-домен.ru/sitemap.xml
+# На новом домене в конце адреса не должно быть /uyutovo
 User-agent: *
 Allow: /
 
